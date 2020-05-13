@@ -4,11 +4,11 @@ Employee
 ### attributes:
 - pay (float)
 - uniform (boolean)
-- position (string)
+- manager (boolean)
 - schedule (array)
 
 ### methods:
 - numberHours (increases pay)
-- offWork (makes uniform false)
-- greeter (sets position)
+- atWork (makes uniform true/false)
+- position (sets manager true/false)
 - closingShift (defines schedule)
