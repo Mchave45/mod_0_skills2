@@ -1,0 +1,18 @@
+var food = "Pizza";
+var is_delicious = true;
+console.log(food);
+
+food = "Bacon";
+console.log(food);
+
+var num2 = 34;
+var num7 = 74;
+var quotient = num2 / num7;
+console.log(quotient);
+
+var songs = ["Chasing Pavement", "Radio", "My Little Needle", "What's My Age Again?"];
+console.log(songs);
+songs.shift();
+console.log(songs);
+
+console.log(food.length);
